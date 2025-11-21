@@ -1,0 +1,2598 @@
+ChatSuffix:
+    mode: gonblerware
+    name: ChatSuffix
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: false
+Dolphin:
+    name: Dolphin
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+Flight:
+    mode: Grim
+    horizontal: 1.0
+    firework: false
+    visible: true
+    bind: -1
+    chatNotify: true
+    antiKick: false
+    name: Flight
+    vertical: 1.0
+    pitch: false
+    enabled: false
+AutoTrap:
+    rotate: true
+    visible: true
+    chatNotify: true
+    blocks: 1.0
+    eChest: false
+    range: 5.0
+    targetRange: 5.0
+    enabled: false
+    mode: City
+    delay: 52.083333333333336
+    bind: 78
+    disable: false
+    name: AutoTrap
+    strict: false
+Godmode:
+    name: Godmode
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+AntiHolecamp:
+    mode: Block
+    rotate: true
+    visible: true
+    delay: 0
+    bind: -1
+    chatNotify: true
+    name: AntiHolecamp
+    range: 6.0
+    targetRange: 5.0
+    strict: false
+    enabled: false
+Auto32k:
+    rotate: true
+    visible: true
+    placeRange: 6.0
+    bind: -1
+    chatNotify: true
+    placeMode: Auto
+    strictDirection: false
+    name: Auto32k
+    tick: PerTick
+    targetRange: 6.0
+    enabled: false
+InventoryViewer:
+    crystals: false
+    obsidian: false
+    borderColor:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 206
+        sync: false
+    visible: true
+    yPos: 310
+    insideColor:
+        red: 20
+        green: 20
+        blue: 20
+        alpha: 64
+        sync: false
+    xPos: 602
+    textColor:
+        red: 255
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    enabled: false
+    totems: false
+    name: InventoryViewer
+    xP: false
+    aboveItems: true
+    snap: false
+Criticals:
+    mode: Strict
+    visible: true
+    delay: 250.0
+    bind: -1
+    chatNotify: true
+    name: Criticals
+    onlyAura: false
+    enabled: true
+AntiPackets:
+    visible: false
+    bind: -1
+    chatNotify: true
+    adjust: false
+    fakeVanilla: true
+    noSlot: false
+    name: AntiPackets
+    noRotate: true
+    enabled: true
+Announcer:
+    joins: true
+    visible: true
+    chatNotify: true
+    break: true
+    enabled: false
+    mode: Chat
+    worldTime: false
+    delay: 7.5625
+    bind: -1
+    name: Announcer
+    eat: true
+    place: true
+    walk: true
+FullBright:
+    mode: Gamma
+    name: FullBright
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: false
+LegitCrystal:
+    crystalDelay: 401.04166666666663
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: LegitCrystal
+    breakDelay: 0.0
+    enabled: false
+    placeDelay: 0.0
+    lethalTick: false
+EntityControl:
+    name: EntityControl
+    mountBypass: false
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+MiddleClick:
+    visible: false
+    charge: false
+    bind: -1
+    chatNotify: true
+    name: MiddleClick
+    friend: false
+    inventory: true
+    fireworks: false
+    enabled: true
+    pearl: true
+EntitySpeed:
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: EntitySpeed
+    bounds: Soft
+    strict: false
+    packet: false
+    enabled: false
+    speed: 0.9677083333333334
+FastMechs:
+    name: FastMechs
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+BlinkDisplay:
+    name: BlinkDisplay
+    visible: false
+    yPos: 279
+    xPos: 433
+    enabled: true
+AutoReconnect:
+    name: AutoReconnect
+    visible: true
+    bind: -1
+    time: 1
+    chatNotify: true
+    enabled: false
+Compass:
+    visible: false
+    yPos: 407.20000000000005
+    name: Compass
+    scale: 16
+    xPos: 480.0
+    autoPos: true
+    enabled: false
+FakePlayer:
+    ghostName: Catgirl
+    visible: false
+    task: Play
+    bind: -1
+    chatNotify: true
+    name: FakePlayer
+    enabled: true
+AntiRevert:
+    refill: false
+    visible: true
+    delay: 0
+    bind: -1
+    chatNotify: true
+    name: AntiRevert
+    enabled: false
+NameHider:
+    name: NameHider
+    replace: nice iq
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: false
+Tweaks:
+    crouch: true
+    visible: false
+    bind: -1
+    chatNotify: true
+    regearButton: false
+    name: Tweaks
+    noCrawl: true
+    stealButton: false
+    fastJump: true
+    enabled: true
+AutoFeetPlace:
+    rotate: true
+    overplace: false
+    visible: true
+    chatNotify: true
+    break: true
+    blocks: 1.0
+    line:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    fadeTime: 200
+    range: 4.2
+    breakDelay: 111.1111111111111
+    fill:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 25
+        sync: false
+    enabled: false
+    mode: Dynamic
+    adaptive: false
+    delay: 0.0
+    bind: 86
+    disable: true
+    name: AutoFeetPlace
+    predict: true
+    strict: true
+    render: true
+SmallShield:
+    name: SmallShield
+    visible: false
+    bind: -1
+    chatNotify: true
+    offset: 0.1
+    enabled: false
+IRC:
+    name: IRC
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: true
+Sprint:
+    mode: Rage
+    rotate: false
+    visible: false
+    bind: -1
+    chatNotify: true
+    name: Sprint
+    enabled: true
+Capes:
+    name: Capes
+    visible: false
+    bind: -1
+    chatNotify: true
+    capeMode: Pk
+    enabled: true
+Welcomer:
+    mode: Only
+    visible: false
+    yPos: 1
+    wheelChair: false
+    white: false
+    name: Welcomer
+    xPos: 435
+    autoPos: true
+    enabled: false
+    wave: false
+Lighter:
+    rotate: false
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: Lighter
+    targetRange: 10
+    strict: false
+    enabled: false
+PvpInfo:
+    colorA:
+        red: 0
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    colorB:
+        red: 0
+        green: 0
+        blue: 255
+        alpha: 255
+        sync: false
+    visible: false
+    yPos: 209
+    name: PvpInfo
+    xPos: 2
+    enabled: true
+    colorC:
+        red: 87
+        green: 8
+        blue: 97
+        alpha: 255
+        sync: false
+Display32k:
+    visible: true
+    yPos: 10
+    name: Display32k
+    xPos: 100
+    autoPos: true
+    enabled: false
+    rainbow32k: false
+KillNotify:
+    name: KillNotify
+    visible: false
+    yPos: 10
+    xPos: 100
+    enabled: true
+Optimizer:
+    frustrum: true
+    visible: false
+    bind: -1
+    chatNotify: true
+    unfocusedFPS: true
+    name: Optimizer
+    limit: 31.0
+    enabled: true
+WeatherEditor:
+    lightning:
+        red: 0
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    visible: false
+    bind: -1
+    chatNotify: true
+    colorize: false
+    name: WeatherEditor
+    weatherMode: Clear
+    enabled: true
+AutoLog:
+    visible: true
+    bind: -1
+    chatNotify: true
+    totems: 0.0
+    visualRange: false
+    name: AutoLog
+    lethal: false
+    health: 15.0
+    illegal: false
+    noTotems: false
+    enabled: false
+ElytraFly:
+    infDura: false
+    visible: false
+    boostControl: false
+    chatNotify: true
+    vertical: 1.5833333333333335
+    enabled: false
+    mode: Factor
+    horizontal: 2.0
+    bind: -1
+    antiKick: true
+    onGround: true
+    upFactor: 0.0
+    boostBounce: false
+    name: ElytraFly
+    accelerate: false
+    pitch: true
+    factor: 8.416666666666666
+    strict: None
+    highway: false
+    downFactor: 0.0
+Scaffold:
+    rotate: true
+    chatNotify: true
+    thickness: 1.1
+    downwards: true
+    line:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    ExpandMode: 'Off'
+    barColor: Custom
+    enabled: false
+    mode: Silent
+    bind: 82
+    blockCounter: Bar
+    visualize: true
+    limit: true
+    rightColor:
+        red: 0
+        green: 255
+        blue: 0
+        alpha: 255
+        sync: false
+    leftColor:
+        red: 255
+        green: 0
+        blue: 255
+        alpha: 255
+        sync: false
+    event: Post
+    safeWalk: None
+    render: true
+    placeDelay: 63.0
+    towerMode: Normal
+    visible: true
+    fadeTime: 200
+    fill:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 25
+        sync: true
+    swing: true
+    barText: false
+    name: Scaffold
+    grim: false
+Font:
+    pop: false
+    visible: false
+    bind: -1
+    chatNotify: true
+    shadow: true
+    name: Font
+    short: false
+    fontSize: 18.0
+    antiAlias: true
+    enabled: false
+Yaw:
+    name: Yaw
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+Sense:
+    name: Sense
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: true
+CustomSky:
+    name: CustomSky
+    visible: true
+    bind: -1
+    chatNotify: true
+    color:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    enabled: false
+AutoFish:
+    cast: true
+    visible: true
+    delay: 20.0
+    bind: -1
+    chatNotify: true
+    name: AutoFish
+    enabled: false
+Jesus:
+    mode: Solid
+    name: Jesus
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+AutoEZ:
+    name: AutoEZ
+    autoEzmMODE: 1111DotFun
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+Platformer:
+    rotate: true
+    visible: false
+    delay: 0.0
+    bind: -1
+    chatNotify: true
+    name: Platformer
+    range: 6.0
+    targetRange: 5.0
+    strict: true
+    enabled: false
+Chat:
+    visible: false
+    bind: -1
+    chatNotify: true
+    bounce: true
+    animations: true
+    name: Chat
+    length: 150.0
+    chatTime: true
+    enabled: true
+    animation: Fade
+32kAura:
+    antiTotemTries: 1
+    rotate: true
+    visible: true
+    chatNotify: true
+    totem32k: false
+    range: 15
+    enabled: false
+    mode: Tick
+    switchTo32k: true
+    only32k: true
+    delay: 10
+    bind: -1
+    attackType: Client
+    name: 32kAura
+    antiTotem: false
+ArmorHud:
+    small: true
+    middleColor:
+        red: 255
+        green: 200
+        blue: 0
+        alpha: 255
+        sync: false
+    visible: false
+    yPos: 10
+    triColor: true
+    highColor:
+        red: 0
+        green: 255
+        blue: 22
+        alpha: 255
+        sync: false
+    name: ArmorHud
+    lowColor:
+        red: 155
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    xPos: 100
+    percent: true
+    enabled: true
+SelfTrap:
+    rotate: true
+    overplace: false
+    visible: true
+    chatNotify: true
+    break: true
+    blocks: 4.0
+    line:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    fadeTime: 200
+    range: 6.0
+    breakDelay: 52.083333333333336
+    fill:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 25
+        sync: true
+    enabled: false
+    mode: Dynamic
+    head: false
+    adaptive: false
+    delay: 0.0
+    bind: -1
+    disable: false
+    name: SelfTrap
+    predict: true
+    strict: true
+    render: true
+    airPlace: false
+ChestStealer:
+    visible: true
+    delay: 83.33333333333333
+    bind: -1
+    chatNotify: true
+    name: ChestStealer
+    close: false
+    enabled: false
+ESP:
+    breakFillReady:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 81
+        sync: false
+    breakLineFinished:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    rideables: false
+    chatNotify: true
+    burrowLine:
+        red: 255
+        green: 62
+        blue: 62
+        alpha: 255
+        sync: false
+    chorusLine:
+        red: 255
+        green: 0
+        blue: 255
+        alpha: 255
+        sync: false
+    crawls: true
+    itemNametag: true
+    itemLine:
+        red: 0
+        green: 0
+        blue: 255
+        alpha: 255
+        sync: false
+    enabled: true
+    breakRange: 3.8
+    bind: -1
+    chorusMode: Tag
+    breakFillStart:
+        red: 161
+        green: 0
+        blue: 255
+        alpha: 81
+        sync: false
+    burrowFill:
+        red: 255
+        green: 62
+        blue: 62
+        alpha: 25
+        sync: false
+    crawlFill:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    itemBox: false
+    animals: false
+    crawlLine:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    burrows: false
+    itemFill:
+        red: 0
+        green: 0
+        blue: 255
+        alpha: 25
+        sync: false
+    fadeStart: 573.8020833333333
+    visible: false
+    breaks: true
+    breakLineStart:
+        red: 161
+        green: 0
+        blue: 255
+        alpha: 81
+        sync: false
+    players: false
+    fadeTime: 2000.0
+    monsters: false
+    predictions: true
+    chorusFill:
+        red: 200
+        green: 3
+        blue: 3
+        alpha: 25
+        sync: false
+    pearls: true
+    name: ESP
+    page: Break
+    chorus: true
+TextRadar:
+    visible: false
+    yPos: 10.0
+    spacing: false
+    name: TextRadar
+    xPos: 1
+    alignment: TopLeft
+    autoPos: true
+    enabled: true
+TpExploit:
+    name: TpExploit
+    visible: true
+    bind: -1
+    packetsPerTick: 10
+    chatNotify: true
+    enabled: false
+FastFirework:
+    visible: false
+    bind: -1
+    chatNotify: true
+    name: FastFirework
+    boost: false
+    factor: 0.22
+    enabled: false
+    speed: 0.14
+AutoRetotem:
+    refill: true
+    visible: true
+    delay: 1
+    bind: -1
+    chatNotify: true
+    name: AutoRetotem
+    slot: 2.0
+    enabled: false
+TickBase:
+    boostTime: 15.454545454545455
+    mode: Disable
+    timerAmount: 3.4242424242424243
+    boostSpacing: 10
+    visible: true
+    bind: 69
+    chatNotify: true
+    name: TickBase
+    enabled: false
+    chargeSpeed: 25
+32kTp:
+    name: 32kTp
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+AutoReplenish:
+    visible: false
+    delay: 78.125
+    bind: -1
+    chatNotify: true
+    name: AutoReplenish
+    percent: 35.0
+    enabled: true
+FastUse:
+    all: false
+    crystals: true
+    visible: false
+    chatNotify: true
+    fastBow: false
+    blocks: false
+    enabled: true
+    delay: 0.0
+    ghostFix: false
+    bind: -1
+    name: FastUse
+    xP: true
+    bowDelay: 3.0
+    fastCrossbow: true
+CatAura:
+    rotate: true
+    swapDelay: None
+    chatNotify: true
+    damageText: true
+    type: Fade
+    breakRange: 4.0
+    crystalDelay: 408.33333333333337
+    placeRange: 4.1
+    bind: 88
+    autoSwitch: Normal
+    limit: false
+    terrain: true
+    autoHit: true
+    openSpeed: 5
+    placeDelay: 0.0
+    minDamage: 7.125
+    antiFeetPlace: true
+    swapWaitDelay: 300
+    visible: true
+    strictDirection: false
+    timing: Soft
+    fadeTime: 773.0
+    sort: Damage
+    mining: Ignore
+    targetRange: 16.28125
+    pause: false
+    placeWallsRange: 3.0
+    setDead: None
+    sequence: Soft
+    maxSelfDamage: 18.75
+    antiWeakness: Normal
+    name: AutoCrystal
+    rotationsType: NCP
+    antiSuicide: true
+    boost: false
+    page: Misc
+    assume: true
+    ticksExisted: 0.0
+    enabled: false
+    fillColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 38
+        sync: true
+    multiTask: Strong
+    lethalCrystals: 3.0
+    '1.12': true
+    inhibit: true
+    breakDelay: 202.02020202020202
+    textScale: 1.2291666666666667
+    future: true
+    glideSpeed: 5
+    outlineColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    lethalTick: false
+    breakWallsRange: 3.0
+ArrowInfo:
+    visible: false
+    yPos: 265
+    name: ArrowInfo
+    onlyShooting: true
+    xPos: 446
+    autoPos: true
+    enabled: true
+TimeChanger:
+    name: TimeChanger
+    visible: false
+    bind: -1
+    time: 4791.666666666667
+    chatNotify: true
+    enabled: true
+ElytraSwap:
+    firework: true
+    visible: true
+    bind: -1
+    chatNotify: false
+    name: ElytraSwap
+    auto-Fly: true
+    enabled: false
+FastLatency:
+    name: FastLatency
+    visible: false
+    delay: 677.0833333333333
+    bind: -1
+    chatNotify: true
+    enabled: false
+ExtraPlace:
+    visible: false
+    only-Fluids: false
+    bind: -1
+    chatNotify: true
+    line:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    name: ExtraPlace
+    fill:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 25
+        sync: true
+    enabled: true
+    grim: false
+FeatureList:
+    visible: false
+    yPos: 1
+    xPos: 959
+    easing: Linear
+    enabled: true
+    speed: 0.79
+    animation: true
+    bouncing: true
+    spacing: false
+    noBrackets: false
+    name: FeatureList
+    alignment: TopRight
+    autoPos: true
+AutoArmor:
+    visible: true
+    delay: 100
+    bind: 84
+    chatNotify: true
+    blastPants: true
+    name: AutoArmor
+    enabled: false
+Tracker:
+    name: Tracker
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+AutoRegear:
+    visible: false
+    bind: -1
+    chatNotify: true
+    name: AutoRegear
+    clicks: 1.0
+    close: false
+    enabled: false
+    speed: 63.4375
+Trails:
+    visible: false
+    chatNotify: true
+    arrow: false
+    endColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    lifetime: 1000
+    enabled: false
+    lineWidth: 2
+    startColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    fade: true
+    bind: -1
+    selfTime: 1000
+    name: Trails
+    xP: false
+    self: false
+ExtraTab:
+    name: ExtraTab
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: true
+Manager:
+    indicator: true
+    toggleStyle: ForgeHax
+    visible: false
+    bind: -1
+    chatNotify: true
+    hidden: false
+    clientName: SN0WUNICODE
+    mainChat: Custom
+    name: Manager
+    bold: true
+    enabled: true
+    accentChat: Custom
+Nuker:
+    mode: Pearl
+    rotate: true
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: Nuker
+    predict: true
+    range: 5.0
+    strict: true
+    enabled: false
+AutoPlacer:
+    rotate: false
+    visible: true
+    chatNotify: true
+    blocks: 1.0
+    line:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    fadeTime: 200
+    range: 6.0
+    targetRange: 5.0
+    fill:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 25
+        sync: false
+    enabled: true
+    delay: 141.4141414141414
+    bind: -1
+    name: AutoPlacer
+    strict: false
+    render: true
+    minDamage: 7
+Holesnap:
+    boostTime: 18.18181818181818
+    visible: true
+    chatNotify: true
+    usePostTimer: false
+    physicsTicks: 3
+    range: 6.0
+    stepMode: NONE
+    enabled: false
+    mode: Normal
+    tickAmount: 3.6363636363636362
+    bind: 81
+    swapping: true
+    doubles: true
+    physics: false
+    name: Holesnap
+    useTickSpeed: true
+    boost: false
+    rightColor:
+        red: 0
+        green: 255
+        blue: 0
+        alpha: 255
+        sync: false
+    leftColor:
+        red: 255
+        green: 0
+        blue: 255
+        alpha: 255
+        sync: false
+AutoAnchor:
+    explodeDelay: 0.0
+    rotate: true
+    swapDelay: None
+    chatNotify: true
+    damageText: true
+    type: Fade
+    enabled: false
+    fillColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 25
+        sync: true
+    multiTask: None
+    placeRange: 6.0
+    bind: -1
+    autoSwitch: Normal
+    terrain: false
+    placeDelay: 375.0
+    minDamage: 4.875
+    swapWaitDelay: 300
+    lethalCrystals: 0.0
+    visible: true
+    strictDirection: false
+    timing: Soft
+    fadeTime: 298.0
+    textScale: 1.4
+    sort: Damage
+    mining: None
+    targetRange: 7.0
+    pause: false
+    placeWallsRange: 3.0
+    maxSelfDamage: 36.0
+    future: false
+    name: AutoAnchor
+    rotationsType: Simple
+    outlineColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    antiSuicide: false
+    page: Timing
+    assume: false
+AutoXP:
+    rotate: None
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: AutoXP
+    boost: 1.0
+    mend: true
+    enabled: false
+    speed: 20.0
+    middleClick: false
+Anti32k:
+    visible: true
+    bind: -1
+    chatNotify: true
+    log: true
+    name: Anti32k
+    mainhandTotems: true
+    page: Survival
+    survRange: 13
+    enabled: false
+Search:
+    visible: true
+    bind: -1
+    chatNotify: true
+    color:
+        red: 181
+        green: 69
+        blue: 180
+        alpha: 51
+        sync: false
+    tracers: true
+    name: Search
+    width: 0.8
+    enabled: false
+FastFall:
+    visible: true
+    bind: -1
+    chatNotify: true
+    teleport: true
+    name: FastFall
+    tele-Height: 2.0505050505050506
+    enabled: false
+    height: 1.0
+FastProjectile:
+    rotate: false
+    visible: true
+    bind: -1
+    chatNotify: true
+    strength: 47.71875
+    pearls: true
+    bows: true
+    name: FastProjectile
+    type: Future
+    enabled: false
+Coords:
+    visible: false
+    yPos: 530.0
+    name: Coords
+    colorDirection: false
+    xPos: 1
+    autoPos: true
+    enabled: true
+    yaw: true
+    direction: true
+AutoTool:
+    name: AutoTool
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+HudColors:
+    visible: false
+    chatNotify: true
+    endColor:
+        red: 255
+        green: 154
+        blue: 107
+        alpha: 255
+        sync: false
+    colorMode: Step
+    stepColor:
+        red: 255
+        green: 126
+        blue: 167
+        alpha: 255
+        sync: false
+    enabled: false
+    rainbowLength: 36.0
+    saturation: 255.0
+    stepLength: 0.4760416666666666
+    brightness: 229.34343434343435
+    bind: -1
+    mainColor:
+        red: 255
+        green: 0
+        blue: 82
+        alpha: 255
+        sync: false
+    name: HudColors
+    rainbowSpeed: 1.0
+    stepSpeed: 1.4
+Spammer:
+    mode: File
+    visible: true
+    delay: 1.0
+    bind: -1
+    chatNotify: true
+    name: Spammer
+    enabled: false
+PopChams:
+    fadeStart: 100
+    fillColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 100
+        sync: true
+    visible: false
+    bind: -1
+    chatNotify: true
+    fadeTime: 500
+    name: PopChams
+    self: false
+    lineColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    enabled: true
+Waypoints:
+    name: Waypoints
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: false
+ArmorWarner:
+    visible: false
+    yPos: 10
+    name: ArmorWarner
+    threshold: 35.0
+    xPos: 100
+    autoPos: true
+    enabled: true
+Heaven:
+    name: Heaven
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: false
+BoatFly:
+    visible: true
+    bind: -1
+    chatNotify: true
+    fallSpeed: 0.0
+    name: BoatFly
+    glide: false
+    enabled: false
+    speed: 0.1
+PingSpoof:
+    visible: true
+    delay: 1000.0
+    bind: -1
+    chatNotify: true
+    name: PingSpoof
+    transactions: true
+    enabled: false
+AutoWalk:
+    name: AutoWalk
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+NoEntityTrace:
+    name: NoEntityTrace
+    visible: false
+    bind: -1
+    chatNotify: false
+    pickaxe: false
+    enabled: false
+HoleFill:
+    rotate: Normal
+    visible: true
+    chatNotify: true
+    blocks: 1
+    line:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    fadeTime: 200
+    webs: false
+    range: 4.5
+    targetRange: 10.0
+    fill:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 25
+        sync: true
+    enabled: true
+    smart: true
+    delay: 111.1111111111111
+    bind: -1
+    wallsRange: 4.4
+    doubles: true
+    disable: false
+    name: HoleFill
+    smartBlockRange: 2.1885416666666666
+    strict: false
+    render: true
+Disabler:
+    mode: Overflow
+    name: Disabler
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+NoFall:
+    mode: Grim
+    name: NoFall
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+XCarry:
+    name: XCarry
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+HudEditor:
+    name: HudEditor
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+ViewClip:
+    name: ViewClip
+    visible: false
+    bind: -1
+    chatNotify: true
+    distance: 4.5625
+    enabled: false
+AutoBreak:
+    rotate: true
+    autoCity: true
+    chatNotify: true
+    distance: 11.145833333333334
+    range: 5.0
+    fillColor2:
+        red: 0
+        green: 255
+        blue: 0
+        alpha: 55
+        sync: false
+    type: Normal
+    enabled: true
+    unbreak: true
+    switch: Alter
+    fillColor:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 43
+        sync: false
+    walls: 3.0
+    bind: -1
+    rebreak: Fast
+    headCrystal: true
+    predict: true
+    strict: true
+    preMine: true
+    visible: true
+    inhibit: false
+    2b2t: false
+    pause: Eat
+    antiCrawl: false
+    swing: true
+    delay: 80.80808080808082
+    selfMine: true
+    name: AutoBreak
+    outlineColor:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    airStrict: true
+    outlineColor2:
+        red: 0
+        green: 255
+        blue: 0
+        alpha: 255
+        sync: false
+    breakAt: 1.0
+    page: AutoCity
+    logic: Only
+DeathEffects:
+    name: DeathEffects
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: true
+Shaders:
+    hands: false
+    chatNotify: true
+    eChests: false
+    animalsColor:
+        red: 0
+        green: 200
+        blue: 0
+        alpha: 255
+        sync: false
+    chests: false
+    enabled: false
+    speed: 0.001
+    playersColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 0
+        sync: true
+    crystalsColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    imageToUse: kamidefault
+    chestsColor:
+        red: 200
+        green: 200
+        blue: 101
+        alpha: 255
+        sync: false
+    bind: -1
+    enderChestsColor:
+        red: 155
+        green: 0
+        blue: 200
+        alpha: 255
+        sync: false
+    animals: false
+    fillTag: Rainbow
+    factor: 4.0
+    monstersColor:
+        red: 200
+        green: 60
+        blue: 60
+        alpha: 255
+        sync: false
+    others: false
+    friendsColor: true
+    projectilesColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    selfColor:
+        red: 200
+        green: 60
+        blue: 60
+        alpha: 255
+        sync: false
+    crystals: true
+    itemsColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    visible: false
+    players: true
+    texture: true
+    monsters: false
+    projectiles: false
+    quality: 1.0
+    intensity: 0.73
+    renderDistance: 138.6
+    transparency: 0.3
+    name: Shaders
+    width: 10.0
+    self: false
+    items: true
+    shulkers: false
+    shulkersColor:
+        red: 200
+        green: 0
+        blue: 106
+        alpha: 255
+        sync: false
+Particles:
+    visible: true
+    bind: -1
+    chatNotify: true
+    color:
+        red: 255
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    name: Particles
+    secondColor:
+        red: 0
+        green: 255
+        blue: 72
+        alpha: 255
+        sync: false
+    twoColor: false
+    enabled: false
+AntiPotions:
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: AntiPotions
+    slowness: false
+    levitiation: false
+    enabled: false
+    jumpBoost: false
+AutoRespawn:
+    name: AutoRespawn
+    visible: false
+    bind: -1
+    time: 1.0
+    chatNotify: true
+    enabled: true
+BlockHighlight:
+    entityLine:
+        red: 255
+        green: 62
+        blue: 62
+        alpha: 255
+        sync: false
+    entityFill:
+        red: 255
+        green: 62
+        blue: 62
+        alpha: 25
+        sync: false
+    visible: false
+    bind: -1
+    chatNotify: true
+    line:
+        red: 255
+        green: 62
+        blue: 62
+        alpha: 255
+        sync: false
+    name: BlockHighlight
+    fill:
+        red: 255
+        green: 62
+        blue: 62
+        alpha: 25
+        sync: false
+    enabled: true
+    entity: false
+BetterPortals:
+    name: BetterPortals
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: true
+PacketFly:
+    phase: Full
+    visible: true
+    chatNotify: true
+    enabled: false
+    phased: false
+    mode: Fast
+    confirm: false
+    bind: -1
+    antiKick: false
+    name: PacketFly
+    bounds: Snap
+    LimitMode: None
+    factor: 1.9
+AutoWeb:
+    mode: Target
+    rotate: true
+    visible: true
+    delay: 125.0
+    ghostSwitch: true
+    bind: -1
+    chatNotify: true
+    strictDirection: true
+    disable: true
+    name: AutoWeb
+    targetRange: 5.21875
+    enabled: false
+Tooltips:
+    crystals: false
+    obsidian: false
+    borderColor:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    visible: false
+    chatNotify: true
+    insideColor:
+        red: 20
+        green: 20
+        blue: 20
+        alpha: 109
+        sync: false
+    icon: true
+    textColor:
+        red: 255
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    enabled: true
+    capacity: true
+    bind: -1
+    totems: false
+    name: Tooltips
+    xP: false
+    aboveItems: true
+AntiAFK:
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: AntiAFK
+    look: false
+    enabled: false
+    walk: true
+    punch: true
+    jump: false
+Alerts:
+    visible: false
+    chatNotify: true
+    color: Sync
+    weakDetect: true
+    nameColor:
+        red: 255
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    popColor:
+        red: 255
+        green: 178
+        blue: 16
+        alpha: 255
+        sync: false
+    strengthDetect: true
+    boldPearls: true
+    accent:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    enabled: true
+    bind: -1
+    pops: true
+    pearls: true
+    name: Alerts
+    boldPops: true
+Ambience:
+    name: Ambience
+    visible: false
+    bind: -1
+    chatNotify: true
+    color:
+        red: 140
+        green: 124
+        blue: 245
+        alpha: 251
+        sync: false
+    enabled: false
+NewChunks:
+    name: NewChunks
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+MultiTask:
+    name: MultiTask
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: true
+AntiChainPop:
+    visible: false
+    chatNotify: true
+    swapBack: true
+    maxDamage: 6.0
+    health: 15.8
+    only-Lethal: true
+    slot: 2.0
+    inventory: false
+    enabled: false
+    speed: 21.875
+    pause: true
+    refill: true
+    delay: 3.125
+    bind: -1
+    open-Totem: false
+    name: AntiChainPop
+    hurt: true
+Chams:
+    cancel: false
+    crystals: false
+    visible: false
+    chatNotify: true
+    players: true
+    range: 46.9
+    fill:
+        red: 114
+        green: 0
+        blue: 229
+        alpha: 0
+        sync: false
+    enabled: false
+    walls: true
+    bind: -1
+    name: Chams
+    self: true
+    shiny: true
+    hand: false
+    frame:
+        red: 185
+        green: 116
+        blue: 255
+        alpha: 255
+        sync: false
+IceSpeed:
+    name: IceSpeed
+    visible: true
+    bind: -1
+    chatNotify: true
+    slipperiness: 0.4
+    enabled: false
+KillAura:
+    mobs: true
+    rotate: true
+    eSP: false
+    chatNotify: true
+    line:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    range: 3.5
+    vehicles: true
+    type: Auto
+    enabled: true
+    mode: Cooldown
+    multiTask: Soft
+    bind: -1
+    autoSwitch: false
+    sorting: Distance
+    yawStep: true
+    animals: true
+    persist: true
+    visible: true
+    eatPause: true
+    players: true
+    onlyWeapon: true
+    fill:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 25
+        sync: true
+    wallsRange: 3.6
+    attackSpeed: 11.4
+    name: KillAura
+    tPSSync: None
+AntiCrash:
+    visible: true
+    bind: -1
+    chatNotify: true
+    sound: false
+    name: AntiCrash
+    noUnicode: false
+    particles: false
+    enabled: false
+Phase:
+    autoPhase: false
+    visible: true
+    chatNotify: true
+    distance: 10.0
+    ticks: 5.0
+    selfFill: false
+    inventory: true
+    enabled: false
+    mode: Pearl
+    6b6t: false
+    bind: -1
+    attack: true
+    name: Phase
+    pitch: 86.0
+RPC:
+    images: Grails
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: RPC
+    text: I love cats so flipping much
+    enabled: false
+HealthBar:
+    mode: Vanilla
+    visible: true
+    yPos: 323
+    thickness: 1.0
+    name: HealthBar
+    rightColor:
+        red: 0
+        green: 255
+        blue: 0
+        alpha: 255
+        sync: false
+    xPos: 439.0
+    leftColor:
+        red: 255
+        green: 0
+        blue: 255
+        alpha: 255
+        sync: false
+    text: false
+    barColor: Scissor
+    autoPos: true
+    enabled: false
+NoAnim:
+    noMineAnim: false
+    visible: true
+    bind: -1
+    chatNotify: true
+    noBob: false
+    name: NoAnim
+    noSwing: false
+    enabled: false
+BowAim:
+    visible: true
+    bind: -1
+    chatNotify: true
+    invisibles: true
+    players: true
+    name: BowAim
+    neutrals: false
+    monsters: true
+    animals: false
+    enabled: false
+KillSounds:
+    name: KillSounds
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: true
+NoRender:
+    visible: false
+    chatNotify: true
+    frames: true
+    campFires: true
+    skyLight: true
+    potionGui: true
+    hurtCam: true
+    fireworks: true
+    enabled: true
+    swirls: true
+    blockInside: true
+    frostbite: true
+    bossBar: Stack
+    enchantTables: true
+    armor: false
+    advancements: true
+    bind: -1
+    totemPops: true
+    name: NoRender
+    fire: true
+    explosions: true
+    pumpkin: true
+    liquidVision: true
+    fog: true
+PhaseESP:
+    visible: true
+    bind: -1
+    chatNotify: true
+    line:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    name: PhaseESP
+    fill:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 16
+        sync: true
+    enabled: false
+    height: 0.14583333333333334
+HoleESP:
+    doubleLine:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    chatNotify: true
+    glowMode: None
+    obbyFill:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 51
+        sync: false
+    voidSafeFill:
+        red: 231
+        green: 181
+        blue: 255
+        alpha: 255
+        sync: false
+    range: 5.53125
+    obbyFill2:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 67
+        sync: true
+    enabled: true
+    doubleFill:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 51
+        sync: true
+    doubleFill2:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 100
+        sync: true
+    bind: -1
+    voidHoles: true
+    voidLine:
+        red: 255
+        green: 0
+        blue: 251
+        alpha: 255
+        sync: false
+    bedrockFill:
+        red: 27
+        green: 255
+        blue: 0
+        alpha: 51
+        sync: false
+    voidFill:
+        red: 242
+        green: 0
+        blue: 225
+        alpha: 138
+        sync: false
+    height: 0.16666666666666666
+    visible: false
+    bedrockLine:
+        red: 27
+        green: 255
+        blue: 0
+        alpha: 255
+        sync: false
+    obbyLine2:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    animation: None
+    doubleLine2:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    obbyLine:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    voidSafeLine:
+        red: 170
+        green: 0
+        blue: 255
+        alpha: 255
+        sync: false
+    doubles: true
+    voidHeight: 0.5354166666666667
+    name: HoleESP
+    bedrockFill2:
+        red: 0
+        green: 255
+        blue: 0
+        alpha: 93
+        sync: false
+    bedrockLine2:
+        red: 255
+        green: 255
+        blue: 255
+        alpha: 222
+        sync: false
+AntiVoid:
+    mode: Fling
+    name: AntiVoid
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+PhaseWalk:
+    phase: Smooth
+    visible: true
+    chatNotify: true
+    onlyInBlock: false
+    limitMode: Packets
+    down: false
+    enabled: false
+    speed: Factor
+    inhibitMode: None
+    delay: 0.0
+    bind: -1
+    antiVoid: false
+    name: PhaseWalk
+    maxPackets: 15.0
+    reset: 188.0
+    boost: false
+    factor: 1.56
+    handleTeleport: Predict
+Step:
+    mode: Normal
+    visible: true
+    bind: 67
+    chatNotify: true
+    extra: true
+    name: Step
+    alternate: false
+    stepHeight: 1.178125
+    enabled: false
+    useTimer: true
+ViewModel:
+    visible: false
+    chatNotify: true
+    fOV: 119.58333333333333
+    enabled: true
+    translate: false
+    scaleZ: 1.0
+    scaleX: 1.0
+    scaleY: 0.6
+    bind: -1
+    name: ViewModel
+    itemFov: 73.75
+    x: 0.06
+    y: 0.0
+    z: 0.0
+    fOVMode: Custom
+    items: false
+    rotateX: 0.0
+    rotateY: 0.0
+    rotateZ: 0.0
+Catcher:
+    rotate: true
+    visible: true
+    delay: 0
+    bind: -1
+    chatNotify: true
+    name: Catcher
+    range: 6.0
+    targetRange: 5.0
+    strict: false
+    enabled: false
+FastClimb:
+    name: FastClimb
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+AntiPearl:
+    mode: Frames
+    rotate: true
+    visible: true
+    delay: 0
+    bind: -1
+    chatNotify: true
+    name: AntiPearl
+    range: 6.0
+    fill: true
+    targetRange: 5.0
+    strict: false
+    enabled: false
+Undead:
+    name: Undead
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+NoAccel:
+    mode: Max
+    name: NoAccel
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: true
+AimAssist:
+    mobs: false
+    visible: true
+    onlySword: false
+    chatNotify: true
+    players: true
+    range: 6.0
+    vehicles: false
+    fOV: 90.0
+    enabled: false
+    speed: 2.5
+    hold: false
+    bind: -1
+    breakBlocks: false
+    name: AimAssist
+    force: 10.0
+    animals: false
+Nametags:
+    popColorB:
+        red: 0
+        green: 0
+        blue: 255
+        alpha: 255
+        sync: false
+    popColorC:
+        red: 87
+        green: 8
+        blue: 97
+        alpha: 255
+        sync: false
+    tabHealth: true
+    borderColor:
+        red: 255
+        green: 0
+        blue: 82
+        alpha: 255
+        sync: false
+    chatNotify: true
+    cursed: true
+    coloredPing: false
+    ping: true
+    range: 146.875
+    friendBorder: true
+    shortEnchants: true
+    gamemode: false
+    enabled: true
+    itemName: true
+    rainbow32ks: true
+    bind: -1
+    closeScaling: 0.0245
+    normalColor:
+        red: 255
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    friendsColor:
+        red: 0
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    safeColor:
+        red: 0
+        green: 255
+        blue: 0
+        alpha: 255
+        sync: false
+    popColorA:
+        red: 0
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    scaling: 0.3
+    visible: false
+    durability: true
+    health: true
+    entityId: false
+    safeBorder: false
+    backColor:
+        red: 0
+        green: 0
+        blue: 0
+        alpha: 25
+        sync: false
+    pops: true
+    enchantName: false
+    name: Nametags
+    dashPops: true
+    page: Items
+    items: true
+    sneakingColor:
+        red: 255
+        green: 153
+        blue: 0
+        alpha: 255
+        sync: false
+LongJump:
+    mode: Grim
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: LongJump
+    boost: 0.2
+    autoDisable: false
+    enabled: false
+    friction: false
+Skeleton:
+    name: Skeleton
+    visible: false
+    bind: -1
+    chatNotify: true
+    color:
+        red: 248
+        green: 126
+        blue: 255
+        alpha: 255
+        sync: false
+    enabled: false
+Safety:
+    name: Safety
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: true
+LogoutESP:
+    fillColor:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 80
+        sync: false
+    mode: Model
+    borderColor:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    visible: false
+    bind: -1
+    chatNotify: true
+    pops: true
+    name: LogoutESP
+    lineColor:
+        red: 255
+        green: 0
+        blue: 0
+        alpha: 255
+        sync: false
+    enabled: false
+    normalColor:
+        red: 0
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    friendsColor:
+        red: 0
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+NoSlow:
+    mode: Vanilla
+    visible: false
+    bind: -1
+    chatNotify: false
+    invMove: true
+    name: NoSlow
+    webs: false
+    sneaking: false
+    crawling: false
+    rotateFix: true
+    items: true
+    enabled: true
+Reach:
+    name: Reach
+    visible: true
+    bind: -1
+    chatNotify: true
+    reach: 2.0
+    enabled: false
+Speed:
+    mode: StrafeStrict
+    visible: true
+    TimerMode: '0888'
+    bind: 70
+    chatNotify: true
+    name: Speed
+    boost: false
+    buffer: false
+    enabled: false
+    speed: 2.0
+AutoTotem:
+    item: Totem
+    swordGap: true
+    swordHealth: 9.0
+    visible: true
+    fast: false
+    delay: 100.0
+    bind: -1
+    chatNotify: true
+    name: AutoTotem
+    enabled: true
+    totemHealth: 36.0
+Blink:
+    name: Blink
+    visible: true
+    bind: 71
+    chatNotify: true
+    enabled: false
+Trajectories:
+    visible: false
+    bind: -1
+    chatNotify: true
+    endColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 255
+        sync: true
+    pearls: true
+    name: Trajectories
+    enabled: true
+    lineWidth: 2
+    startColor:
+        red: 255
+        green: 67
+        blue: 127
+        alpha: 96
+        sync: true
+AntiDesync:
+    name: AntiDesync
+    visible: false
+    bind: -1
+    chatNotify: true
+    no-Verify: false
+    enabled: true
+Info:
+    pingMS: true
+    secondLength: false
+    ping: true
+    iP: false
+    chests: false
+    xPos: 959
+    enabled: true
+    speed: true
+    saturation: false
+    grayValues: false
+    worldTime: false
+    spacing: false
+    aDVWorldTime: false
+    scaledDura: true
+    dayCounter: false
+    autoPos: true
+    potionColor: true
+    pearlCooldown: true
+    advancedAstrix: false
+    visible: false
+    yPos: 530.0
+    advancedTPS: true
+    players: false
+    durability: true
+    fPS: Fast
+    lagNotifier: true
+    serverBrand: false
+    brackets: true
+    potionIcon: true
+    pPS: false
+    light: false
+    potionsSort: true
+    tps: true
+    biome: false
+    potions: true
+    name: Info
+    time: false
+    alignment: BottomRight
+    items: false
+    coloredTPS: true
+Sn0wGui:
+    frameOutline:
+        red: 246
+        green: 162
+        blue: 255
+        alpha: 255
+        sync: false
+    gradientTop:
+        red: 237
+        green: 52
+        blue: 255
+        alpha: 100
+        sync: false
+    visible: true
+    chatNotify: true
+    color:
+        red: 246
+        green: 162
+        blue: 255
+        alpha: 255
+        sync: false
+    icon: Count
+    textColor:
+        red: 255
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    enabled: false
+    button:
+        red: 0
+        green: 0
+        blue: 0
+        alpha: 83
+        sync: false
+    outline:
+        red: 124
+        green: 99
+        blue: 110
+        alpha: 0
+        sync: false
+    bind: 92
+    background:
+        red: 0
+        green: 0
+        blue: 0
+        alpha: 52
+        sync: false
+    name: Sn0wGui
+    width: 103.83838383838383
+    gradientBottom:
+        red: 94
+        green: 118
+        blue: 255
+        alpha: 177
+        sync: false
+    particles: true
+    factor: 0.73
+    disabledText:
+        red: 155
+        green: 155
+        blue: 155
+        alpha: 255
+        sync: false
+    height: 12.5
+Velocity:
+    horizontal: 0.0
+    visible: false
+    bind: -1
+    chatNotify: true
+    onlyBlocks: false
+    name: Velocity
+    vertical: 0.0
+    velocity: Vanilla
+    enabled: true
+    push: true
+    grim: false
+SelfFill:
+    visible: true
+    chatNotify: true
+    break: false
+    ticksExisted: 0.0
+    strictDirection: false
+    burrowDelay: 100
+    breakDelay: 0
+    sync: false
+    enabled: false
+    6b6t: true
+    bind: -1
+    name: SelfFill
+    await: false
+    block: EnderChest
+    dynamic: false
+    RotateNewEnum: Normal
+AspectRatio:
+    name: AspectRatio
+    visible: true
+    aspectAmount: 2.28125
+    bind: -1
+    chatNotify: true
+    enabled: false
+TotemCounter:
+    visible: false
+    yPos: 485
+    name: TotemCounter
+    xPos: 473
+    autoPos: true
+    textColor:
+        red: 255
+        green: 255
+        blue: 255
+        alpha: 255
+        sync: false
+    enabled: true
+AntiCheat:
+    visible: false
+    bind: -1
+    chatNotify: true
+    multiFix: true
+    visualize: true
+    name: AntiCheat
+    strafeFix: false
+    boost: 0.1
+    strict: Soft
+    enabled: true
+    grimProtocol: false
+AutoAnvil:
+    rotate: true
+    visible: true
+    delay: 250
+    bind: -1
+    chatNotify: true
+    strictDirection: false
+    name: AutoAnvil
+    enabled: false
+Parkour:
+    name: Parkour
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+Timer:
+    name: Timer
+    timerAmount: 10.0
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+FastAnchor:
+    visible: true
+    bind: -1
+    chatNotify: true
+    explode: false
+    name: FastAnchor
+    slot: 1.0
+    enabled: false
+Freecam:
+    rotate: false
+    visible: true
+    bind: 72
+    chatNotify: true
+    name: Freecam
+    verticalSpeed: 1.13
+    enabled: false
+    speed: 2.09
+AutoMace:
+    attackRange: 4.1
+    rotate: true
+    visible: true
+    bind: -1
+    chatNotify: true
+    name: AutoMace
+    lagback: true
+    targetRange: 30.0
+    track: true
+    enabled: false
+Crafter:
+    name: Crafter
+    item: stick
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+PortalGodMode:
+    name: PortalGodMode
+    visible: true
+    bind: -1
+    chatNotify: true
+    enabled: false
+Watermark:
+    visible: false
+    yPos: 1
+    white: false
+    name: Watermark
+    xPos: 1
+    autoPos: true
+    enabled: true
+    wave: false
+IllegalLog:
+    name: IllegalLog
+    visible: false
+    bind: -1
+    chatNotify: true
+    enabled: true
