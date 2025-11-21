@@ -7,6 +7,9 @@ https://www.youtube.com/watch?v=2AEAn_b_nxc
 
 For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
 
+## IF YOUR A YOUTUBER MAKING A REVIEW
+please provide your discord so i can add you i will help you use the client and make you configs for whatever server u want to try.
+i have been told that kilab gaming is making a review please make a issue with your discord so i can config as me and jqq are like the only ppl who can config this hack
 ## Basic Info
 
 Hello all I am skitty and I am releasing my 2b2t hacked client after 5 years. It is widely considered the best client for crystal pvp, and pretty much the most sought after client in all of hvh. 
