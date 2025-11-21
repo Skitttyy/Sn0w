@@ -1,0 +1,12 @@
+{
+  "click": {
+    "sounds": [
+      "kami:click"
+    ]
+  },
+  "neverlose": {
+    "sounds": [
+      "kami:neverlose"
+    ]
+  }
+}

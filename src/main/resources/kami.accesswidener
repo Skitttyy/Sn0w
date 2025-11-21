@@ -1,0 +1,78 @@
+accessWidener	v1	named
+
+accessible field com/mojang/blaze3d/systems/RenderSystem shaderLightDirections [Lorg/joml/Vector3f;
+accessible method net/minecraft/entity/LivingEntity getJumpVelocity ()F
+
+accessible field net/minecraft/client/render/BufferBuilder building Z
+accessible method net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket <init> (IZLnet/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractTypeHandler;)V
+accessible method net/minecraft/entity/Entity setWorld (Lnet/minecraft/world/World;)V
+accessible field net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket ATTACK Lnet/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractTypeHandler;
+accessible field net/minecraft/world/chunk/PalettedContainer data Lnet/minecraft/world/chunk/PalettedContainer$Data;
+accessible method net/minecraft/world/chunk/PalettedContainer$Data palette ()Lnet/minecraft/world/chunk/Palette;
+accessible method net/minecraft/entity/LivingEntity tryUseTotem (Lnet/minecraft/entity/damage/DamageSource;)Z
+accessible class net/minecraft/client/particle/NoRenderParticle
+accessible field net/minecraft/block/AbstractBlock slipperiness F
+accessible method net/minecraft/client/particle/NoRenderParticle <init> (Lnet/minecraft/client/world/ClientWorld;DDD)V
+mutable field net/minecraft/block/AbstractBlock slipperiness F
+accessible class net/minecraft/client/gui/hud/InGameHud$HeartType
+accessible method net/minecraft/client/render/BufferRenderer upload (Lnet/minecraft/client/render/BuiltBuffer;)Lnet/minecraft/client/gl/VertexBuffer;
+accessible method net/minecraft/client/render/Camera setPos (DDD)V
+accessible method net/minecraft/client/gl/Framebuffer drawInternal (IIZ)V
+accessible method net/minecraft/client/gl/JsonEffectShaderProgram addSampler (Lcom/google/gson/JsonElement;)V
+accessible method net/minecraft/client/font/TextRenderer tweakTransparency (I)I
+accessible field net/minecraft/client/render/item/HeldItemRenderer prevEquipProgressOffHand F
+accessible field net/minecraft/client/render/item/HeldItemRenderer prevEquipProgressMainHand F
+accessible field net/minecraft/client/render/item/HeldItemRenderer equipProgressMainHand F
+accessible field net/minecraft/client/render/item/HeldItemRenderer equipProgressOffHand F
+accessible method net/minecraft/client/render/entity/PlayerEntityRenderer setModelPose (Lnet/minecraft/client/network/AbstractClientPlayerEntity;)V
+accessible method net/minecraft/client/render/entity/PlayerEntityRenderer scale (Lnet/minecraft/client/network/AbstractClientPlayerEntity;Lnet/minecraft/client/util/math/MatrixStack;F)V
+accessible   field   net/minecraft/client/model/ModelPart cuboids Ljava/util/List;
+accessible   field   net/minecraft/client/model/ModelPart children Ljava/util/Map;
+accessible   class   net/minecraft/client/model/ModelPart$Quad
+accessible   class   net/minecraft/client/model/ModelPart$Vertex
+accessible   field   net/minecraft/client/model/ModelPart$Cuboid sides [Lnet/minecraft/client/model/ModelPart$Quad;
+accessible   method  net/minecraft/client/render/entity/PlayerEntityRenderer getArmPose (Lnet/minecraft/client/network/AbstractClientPlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/client/render/entity/model/BipedEntityModel$ArmPose;
+accessible   method  net/minecraft/client/render/entity/LivingEntityRenderer setupTransforms (Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/client/util/math/MatrixStack;FFFF)V
+accessible   method  net/minecraft/client/render/entity/LivingEntityRenderer scale (Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/client/util/math/MatrixStack;F)V
+accessible   method  net/minecraft/client/render/entity/LivingEntityRenderer getAnimationProgress (Lnet/minecraft/entity/LivingEntity;F)F
+accessible field net/minecraft/entity/Entity POSE Lnet/minecraft/entity/data/TrackedData;
+accessible   field   net/minecraft/client/render/entity/model/AnimalModel headScaled Z
+accessible   field   net/minecraft/client/render/entity/model/AnimalModel childHeadYOffset F
+accessible   field   net/minecraft/client/render/entity/model/AnimalModel childHeadZOffset F
+accessible   field   net/minecraft/client/render/entity/model/AnimalModel invertedChildHeadScale F
+accessible   field   net/minecraft/client/render/entity/model/AnimalModel invertedChildBodyScale F
+accessible   field   net/minecraft/client/render/entity/model/AnimalModel childBodyYOffset F
+accessible   method  net/minecraft/client/render/entity/model/AnimalModel getHeadParts ()Ljava/lang/Iterable;
+accessible   method  net/minecraft/client/render/entity/model/AnimalModel getBodyParts ()Ljava/lang/Iterable;
+accessible field net/minecraft/entity/data/DataTracker entries [Lnet/minecraft/entity/data/DataTracker$Entry;
+accessible   field   net/minecraft/client/render/entity/model/LlamaEntityModel head Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/LlamaEntityModel body Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/LlamaEntityModel rightHindLeg Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/LlamaEntityModel leftHindLeg Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/LlamaEntityModel rightFrontLeg Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/LlamaEntityModel leftFrontLeg Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/LlamaEntityModel rightChest Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/LlamaEntityModel leftChest Lnet/minecraft/client/model/ModelPart;
+
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel leftHindLeg Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel rightHindLeg Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel leftHaunch Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel rightHaunch Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel body Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel leftFrontLeg Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel rightFrontLeg Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel head Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel rightEar Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel leftEar Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel tail Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/model/RabbitEntityModel nose Lnet/minecraft/client/model/ModelPart;
+
+accessible   field   net/minecraft/client/render/entity/EndCrystalEntityRenderer SINE_45_DEGREES F
+accessible   field   net/minecraft/client/render/entity/EndCrystalEntityRenderer core Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/EndCrystalEntityRenderer frame Lnet/minecraft/client/model/ModelPart;
+accessible   field   net/minecraft/client/render/entity/EndCrystalEntityRenderer bottom Lnet/minecraft/client/model/ModelPart;
+
+accessible   field   net/minecraft/client/render/entity/BoatEntityRenderer texturesAndModels Ljava/util/Map;
+accessible method net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket write (Lnet/minecraft/network/PacketByteBuf;)V
+
+accessible field net/minecraft/network/packet/s2c/play/PlayerRemoveS2CPacket profileIds Ljava/util/List;
