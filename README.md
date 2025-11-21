@@ -34,13 +34,15 @@ You WILL crash, and you will run into issues. I am the only dev working on a ful
 
 If you guys think its bad, then cope. Me jqq kelan jaydon and gunther have all been king on this cheat for years and years. We shit on phobos users who got kicked all day on cc on a fucking heph skid. Shit on everyone on strict and grim and made the best cheat for grim in under a month. I ported from 1.12.2 -> 1.21.1 in a month and became the only cheat with a working doublemine for over 2 months. I had full disablers for several servers such as 5b5t and 0b0t (https://medal.tv/games/minecraft/clips/4WmoCXTkboq2a?invite=cr-MSx4WW0sMTIzNDEzODc&v=15, https://medal.tv/games/minecraft/clips/4Wm9d3T45zkcE?invite=cr-MSxzb0EsMTIzNDEzODc&v=15 ) It was and will remain probably the best cheat for a while for hvh if you learn to use it correctly. I reccomend pasting it as soon as u can cuz theres many features but i will let u all discover by playing and having fun on the client.
 
+## Requesting to add features or anything
+I might return to update the client when major changes in the meta happen or if it gets patched entirely doublemine ca whatever just make a issue if its entirely broken. not if its scuffed but if its completely unusable and ill update it to be good again.
 # Where u will go
  im focusing on college where im studying digital forensics and my girlfriend whom i love very much. I also have a brand new pc and have been enjoying playing games I havent been able to play while ive been focused on anarchy. 
 
  ## License
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
