@@ -17,21 +17,14 @@ public class KamiMod implements ModInitializer
     public static Logger LOGGER = Logger.getLogger("sn0w");
 
     public static long START_TIME = System.currentTimeMillis();
-    /**
-     * Determines if this client is a beta release or not
-     */
-    public static String NAME = "Sn0w";
-    public final static String VERSION = "2.1.1+1";
 
-    /**
-     * Determines if this client is a beta release or not
-     */
-    public static boolean BETA = true;
+    public static String NAME = "Sn0w";
+    public final static String VERSION = "2.1.2+1";
 
     /**
      * Git hash of the client
      */
-    public static final String HASH = "930a7896e7525a20";
+    public static final String HASH = "80b84b45f9baf806";
 
     /**
      * The snowflake text ❄

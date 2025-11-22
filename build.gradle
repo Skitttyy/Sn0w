@@ -44,32 +44,32 @@ configurations {
     embed
     modImplementation.extendsFrom embed
 }
-//def getHash() {
-//    def gitFolder = "$projectDir/.git/"
-//    def takeFromHash = 16
-//    def head = new File(gitFolder + "HEAD").text.split(":") // .git/HEAD
-//    def isCommit = head.length == 1
-//
-//    if(isCommit) return head[0].trim().take(takeFromHash)
-//
-//    def refHead = new File(gitFolder + head[1].trim())
-//    refHead.text.trim().take takeFromHash
-//}
-//String hash = getHash()
-//String watermarkVersion = project.versionWatermark
+def getHash() {
+    def gitFolder = "$projectDir/.git/"
+    def takeFromHash = 16
+    def head = new File(gitFolder + "HEAD").text.split(":") // .git/HEAD
+    def isCommit = head.length == 1
+
+    if(isCommit) return head[0].trim().take(takeFromHash)
+
+    def refHead = new File(gitFolder + head[1].trim())
+    refHead.text.trim().take takeFromHash
+}
+String hash = getHash()
+String watermarkVersion = project.versionWatermark
 
 loom {
     accessWidenerPath = file("src/main/resources/kami.accesswidener")
 }
 
 compileJava {
-//    String contents = ""
-//    File update = file 'src/main/java/me/skitttyy/kami/impl/KamiMod.java'
-//    contents = update.getText( 'UTF-8' )
-//    contents = contents.replaceAll( 'HASH = "(.*?)"', 'HASH = "' + hash + '"' )
-//    contents = contents.replaceAll( 'VERSION = "(.*?)"', 'VERSION = "' + watermarkVersion + '"' )
-//
-//    update.write( contents, 'UTF-8' )
+    String contents = ""
+    File update = file 'src/main/java/me/skitttyy/kami/impl/KamiMod.java'
+    contents = update.getText( 'UTF-8' )
+    contents = contents.replaceAll( 'HASH = "(.*?)"', 'HASH = "' + hash + '"' )
+    contents = contents.replaceAll( 'VERSION = "(.*?)"', 'VERSION = "' + watermarkVersion + '"' )
+
+    update.write( contents, 'UTF-8' )
 }
 
 dependencies {
