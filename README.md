@@ -7,10 +7,12 @@ https://www.youtube.com/watch?v=2AEAn_b_nxc
 
 For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
 ## IF YOUR A YOUTUBER MAKING A REVIEW
+
 please provide your discord so i can add you i will help you use the client and make you configs for whatever server u want to try.
 i have been told that kilab gaming is making a review please make a issue with your discord so i can config as me and jqq are like the only ppl who can config this hack
 
 ## Basic Info
+[Frequently asked questions](https://github.com/Skitttyy/Sn0w/blob/main/FAQ.md)
 
 Hello all I am skitty and I am releasing my 2b2t hacked client after 5 years. It is widely considered the best client for crystal pvp, and pretty much the most sought after client in all of hvh.
 
@@ -19,19 +21,15 @@ bunch of original bypasses. I also want to make a note to the community i was sc
 
 I never recieved the shader loader I was promised, and never got paid when i was promised to be paid aswell. So I got someone to send it to me and leaked there src.
 
-[Frequently asked questions](https://github.com/Skitttyy/Sn0w/blob/main/FAQ.md)
 # Warning before using
 This client is extremely old (5 years) and is a huge mess of things i have made throughout my teenage years. I was 13 when i begun working on this and i am 18 now. Alot of things are pasted, and I will make credits soon. This client is private and has alot of weird features and names that you might not understand. All users of this client have exclusively used it for 5 years and many things that might seem conventional for others are completely twisted in this client. A feature might not do what u expect it to do, or might not work the way you want it to, but i built it around the way me jqq and kelan played in crystal pvp so it might be good for some people, but for others it might not be so. It's kinda a client u have to get used to using.
 
 You WILL crash, and you will run into issues. I am the only dev working on a fully standalone cheat that is as good as future mio etc for years. My back FUCKING hurts. every other standalone cheat has SEVERAL developers and i have built this client with just a base from oimax that i pretty much rewrote entirely over the years. We might have used this client in ways that WE personally play the game, and might not have a bug fixed in our nuker for example that crashes ur game, or whatever. This isnt meant for you all to use, and is a main reason why i never sold it ever. It isnt a premium quality cheat, but it certainly is the best one.
 
-If you guys think its bad, then cope. Me jqq kelan jaydon and gunther have all been king on this cheat for years and years. We shit on phobos users who got kicked all day on cc on a fucking heph skid. Shit on everyone on strict and grim and made the best cheat for grim in under a month. I ported from 1.12.2 -> 1.21.1 in a month and became the only cheat with a working doublemine for over 2 months. I had full disablers for several servers such as 5b5t and 0b0t (https://medal.tv/games/minecraft/clips/4WmoCXTkboq2a?invite=cr-MSx4WW0sMTIzNDEzODc&v=15, https://medal.tv/games/minecraft/clips/4Wm9d3T45zkcE?invite=cr-MSxzb0EsMTIzNDEzODc&v=15 ) It was and will remain probably the best cheat for a while for hvh if you learn to use it correctly. I reccomend pasting it as soon as u can cuz theres many features but i will let u all discover by playing and having fun on the client.
-
-## Requesting to add features or anything
-I might return to update the client when major changes in the meta happen or if it gets patched entirely doublemine ca whatever just make a issue if its entirely broken. not if its scuffed but if its completely unusable and ill update it to be good again.
-
+If you guys think its bad, then cope. Me jqq kelan jaydon and gunther have all been king on this cheat for years and years. We shit on phobos users who got kicked all day on cc on a fucking heph skid. Shit on everyone on strict and grim and made the best cheat for grim in under a month. I ported from 1.12.2 -> 1.21.1 in a month and became the only cheat with a working doublemine for over 2 months. I had full disablers for several servers such as 5b5t and 0b0t ([here](https://medal.tv/games/minecraft/clips/4WmoCXTkboq2a?invite=cr-MSx4WW0sMTIzNDEzODc&v=15), and [here](https://medal.tv/games/minecraft/clips/4Wm9d3T45zkcE?invite=cr-MSxzb0EsMTIzNDEzODc&v=15)) It was and will remain probably the best cheat for a while for hvh if you learn to use it correctly. I reccomend pasting it as soon as u can cuz theres many features but i will let u all discover by playing and having fun on the client.
 
 # Credits:
+```
 Main Developers:
 Skitttyy
 0IMAX (kami5)
@@ -48,7 +46,7 @@ CliNet for the snapple facts
 icehack
 3arth4ck for the rotations in 1.12 that work with future (didnt matter cuz got off future later) + some other stuff prob
 dont rmb any rest
-
+```
 ## License
 MIT License
 
