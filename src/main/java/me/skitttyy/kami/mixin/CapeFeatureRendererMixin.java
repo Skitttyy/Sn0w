@@ -19,7 +19,7 @@ public class CapeFeatureRendererMixin {
             if (abstractClientPlayerEntity.getGameProfile() != null && abstractClientPlayerEntity.getGameProfile().getId() != null) {
                 if (MinecraftClient.getInstance().getSession().getUsername().equals(abstractClientPlayerEntity.getGameProfile().getName())) {
 
-                    if (!Capes.INSTANCE.capeMode.getValue().equals("NONE"))
+                    if (!Capes.INSTANCE.capeMode.getValue().equals("None"))
                         return Identifier.of("kami", "capes/" + Capes.INSTANCE.capeMode.getValue().toLowerCase() + ".png");
                 } else {
 //                    String cape = BotManager.INSTANCE.getCapeForName(abstractClientPlayerEntity.getGameProfile().getName());
