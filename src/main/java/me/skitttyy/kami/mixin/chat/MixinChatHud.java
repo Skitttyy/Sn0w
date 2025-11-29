@@ -106,7 +106,7 @@ public abstract class MixinChatHud implements IChatHud
                     target = "Lnet/minecraft/client/gui/DrawContext;fill(IIIII)V", ordinal = 1))
     private void fill(DrawContext instance, int x1, int y1, int x2, int y2, int color)
     {
-        if(Chat.INSTANCE.bounce.getValue())
+        if(Chat.INSTANCE.isEnabled() && Chat.INSTANCE.bounce.getValue())
         {
             y1 = (int) (y1 + (9.0f - 9.0f * percent) * getChatScale());
             y2 = (int) (y2 + (9.0f - 9.0f * percent) * getChatScale());
