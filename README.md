@@ -1,5 +1,6 @@
 # Sn0w 1.21.x
 <img width="1920" height="1080" alt="2025-11-20_21 04 32" src="https://github.com/user-attachments/assets/bec807bb-35e6-4dbf-b9e2-454c6ec81e4c" />
+
 ## Setup
 
 For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
